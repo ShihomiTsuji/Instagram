@@ -23,6 +23,7 @@
 		52F8559425BDA449005EE099 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8559325BDA449005EE099 /* PostData.swift */; };
 		52F8559825BEB9FB005EE099 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8559625BEB9FB005EE099 /* PostTableViewCell.swift */; };
 		52F8559925BEB9FB005EE099 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52F8559725BEB9FB005EE099 /* PostTableViewCell.xib */; };
+		52F855D025C38EF9005EE099 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F855CF25C38EF9005EE099 /* CommentViewController.swift */; };
 		EB5C63F09D2DFF7186F5DFC2 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4DC13BFB1B38525E108AD6 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		52F8559325BDA449005EE099 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		52F8559625BEB9FB005EE099 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		52F8559725BEB9FB005EE099 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		52F855CF25C38EF9005EE099 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		65273642C0B95E675797D5E8 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 		FF4DC13BFB1B38525E108AD6 /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,6 +91,7 @@
 				5265304225ABFAB100D1CFE5 /* HomeViewController.swift */,
 				5265304525ABFACB00D1CFE5 /* ImageSelectViewController.swift */,
 				5265304F25AC824200D1CFE5 /* TabBarController.swift */,
+				52F855CF25C38EF9005EE099 /* CommentViewController.swift */,
 				52F8559625BEB9FB005EE099 /* PostTableViewCell.swift */,
 				52F8559725BEB9FB005EE099 /* PostTableViewCell.xib */,
 				5265304825ABFAE400D1CFE5 /* PostViewController.swift */,
@@ -245,6 +248,7 @@
 				5265304C25ABFAEF00D1CFE5 /* SettingViewController.swift in Sources */,
 				52F8559425BDA449005EE099 /* PostData.swift in Sources */,
 				5265304025ABFA7700D1CFE5 /* LoginViewController.swift in Sources */,
+				52F855D025C38EF9005EE099 /* CommentViewController.swift in Sources */,
 				5265302A25ABF49100D1CFE5 /* AppDelegate.swift in Sources */,
 				5265302C25ABF49100D1CFE5 /* SceneDelegate.swift in Sources */,
 				52F8557725BC6451005EE099 /* Const.swift in Sources */,
