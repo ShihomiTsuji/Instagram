@@ -62,10 +62,8 @@ class PostTableViewCell: UITableViewCell {
         }
         
         //コメントの表示
-        let comments = postData.comment.count
-        commentLabel.text = "\(comments)"
-        print(postData)
-/*        if postData.comment.count > 0 {
+        var comments = ""
+        if postData.comment.count > 0 {
             for i in postData.comment {
                 comments += i
                 print(i)
@@ -73,6 +71,6 @@ class PostTableViewCell: UITableViewCell {
                 commentLabel.text = comments
                 
             }
-        } */
+        }
     }    
 }

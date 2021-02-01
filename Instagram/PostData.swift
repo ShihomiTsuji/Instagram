@@ -40,7 +40,7 @@ class PostData: NSObject {
             }
         }
         
-        if let comment = postDic["Comment"] as? [String] {
+        if let comment = postDic["comment"] as? [String] {
             self.comment = comment
         }
         
