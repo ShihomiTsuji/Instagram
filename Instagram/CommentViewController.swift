@@ -19,14 +19,14 @@ class CommentViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    //決定ボタンがタップされた時の処理
+    //決定ボタンをタップされた時の処理
     @IBAction func commitButton(_ sender: Any) {
         var updateValue: FieldValue
         
         if let comment = textField.text {
-            //let commentValue = ["name": postData.name!, "comment": comment]
-            //updateValue = FieldValue.arrayUnion([commentValue])
-            updateValue = FieldValue.arrayUnion([comment])
+            let myid: String = Auth.auth().currentUser!.displayName!
+            let commentValue = ["name": myid, "comment": comment]
+            updateValue = FieldValue.arrayUnion([commentValue])
             
             // commentに更新データを書き込む
             let postRef = Firestore.firestore().collection(Const.PostPath).document(postData.id)

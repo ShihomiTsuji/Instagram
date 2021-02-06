@@ -46,10 +46,9 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
                     self.postArray = QuerySnapshot!.documents.map { document in
                         print("DEBUG_PRINT: document取得 \(document.documentID)")
                         let postData = PostData(document: document)
-                        print(postData.comment)
-
                         return postData
                     }
+                    
                     // TableViewの表示を更新する
                     self.tableView.reloadData()
                 }

@@ -64,13 +64,13 @@ class PostTableViewCell: UITableViewCell {
         //コメントの表示
         var comments = ""
         if postData.comment.count > 0 {
-            for i in postData.comment {
-                comments += i
-                print(i)
-                print("コメント：" + comments)
-                commentLabel.text = comments
-                
+            for i in 0 ... postData.comment.count - 1 {
+                comments += "ユーザ名: " + postData.comment[i]["name"]!
+                comments += "\n"
+                comments += "コメント: " + postData.comment[i]["comment"]!
+                comments += "\n" + "\n"
             }
+            commentLabel.text = comments
         }
     }    
 }
